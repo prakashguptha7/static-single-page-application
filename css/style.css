@@ -1,0 +1,160 @@
+#nav-wrapper {
+  width: 100%;
+  background-color: #1E90FF;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+#nav {
+  height: 70px;
+  line-height: 70px;
+}
+
+#menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+ /* font-weight: bold; */
+}
+
+#menu li:hover a{
+  text-decoration: underline;
+  /*color: #AAC1CF;*/
+}
+
+#body {
+  margin-top: 60px;
+}
+
+.wrapper {
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.anime-start {
+  opacity: 1;
+}
+
+.widget {
+  padding: 60px 0;
+}
+
+#header {
+  width: 100%;
+  height: 1100px;
+  text-align: center;
+  background-color: #E8E8E8;
+}
+
+#header-title {
+  font-size: 35px;
+}
+
+#header-subtitle {
+  font-size: 20px;
+}
+
+.widget-header {
+  text-align: center;
+  font-size: 28px
+}
+
+.widget-img {
+  margin-top: 20px;
+}
+
+.widget-img img {
+  display: block;
+  margin: auto;
+  border: 1px solid #AAA;
+  height: 200px;
+  width: 455px;
+}
+
+.widget-desc {
+  margin: 20px auto 0 auto;
+  width: 455px;
+  text-align: center;
+}
+
+#wrapper-serv {
+  background-color: #0053D1;
+  color: #FFF;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+.serv-elem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.serv-img {
+    margin-top: 20px;
+}
+
+.serv-img img {
+  display: block;
+  margin: auto;
+  border: 1px solid #AAA;
+  height: 250px;
+  width: 333px;
+}
+
+#serv-desc {
+  width: 333px;
+}
+
+#wrapper-cont-form {
+  width: 500px;
+  border: 3px solid #1E90FF;
+  margin: 20px auto 0 auto;
+  padding: 0 20px;
+}
+
+#cont-form {
+  margin-top: 20px;
+}
+
+.form-elem {
+  padding: 0 0 20px 0;
+}
+
+.form-elem input {
+  border: 2px solid #1E90FF;
+}
+
+.form-elem [type=submit] {
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.form-elem [type=submit]:hover {
+  background-color: #1E90FF;
+  color: #FFF;
+}
+
+#name {
+  width: 330px;  
+}
+
+#email {
+  width: 330px;
+}
+
+#message {
+  width: 330px;
+  height: 200px;
+}
+
+#wrapper-about {
+  background-color: #1E90FF;
+  color: #FFF;
+}
